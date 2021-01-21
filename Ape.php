@@ -1,7 +1,12 @@
 <?php
   Class Ape extends Animal{
+
+    // construct
+    public function __construct($name){
+    }
+    // function yell
     public function yell(){
-      return "Auooo";
+      echo "Auooo<br>";
     }
   }
 ?>
